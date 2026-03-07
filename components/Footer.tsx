@@ -1,6 +1,7 @@
 "use client";
 
 import { Dumbbell, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -12,12 +13,18 @@ export default function Footer() {
                             href="#"
                             className="flex items-center space-x-2 text-white group"
                         >
-                            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white transition-transform group-hover:scale-105">
-                                <Dumbbell className="h-6 w-6" />
+                            <div className="flex p-1 h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white transition-transform group-hover:scale-105">
+                                <Image
+                                    src={"/images/logo-svg.svg"}
+                                    alt="Logo"
+                                    width={100}
+                                    height={100}
+                                    referrerPolicy="no-referrer"
+                                />
                             </div>
-                            <span className="text-xl font-bold tracking-tight">
+                            {/* <span className="text-xl font-bold tracking-tight">
                                 Treinador HP
-                            </span>
+                            </span> */}
                         </a>
                         <p className="text-sm leading-relaxed">
                             Consultoria especializada em Fisioterapia,
