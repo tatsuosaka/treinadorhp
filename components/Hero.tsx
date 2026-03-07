@@ -40,7 +40,7 @@ export default function Hero() {
                             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
                                 Fisioterapia, Musculação e{" "}
                                 <span className="text-orange-500">
-                                    Bodybuilding Coaching
+                                    Treinamento Personalizado
                                 </span>
                             </h1>
                             <p className="max-w-[600px] text-zinc-400 md:text-xl leading-relaxed">

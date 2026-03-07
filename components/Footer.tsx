@@ -81,10 +81,10 @@ export default function Footer() {
                                 <Phone className="h-4 w-4 text-orange-500" />
                                 <span>(19) 99497-9554</span>
                             </li>
-                            <li className="flex items-center space-x-3">
+                            {/* <li className="flex items-center space-x-3">
                                 <Mail className="h-4 w-4 text-orange-500" />
                                 <span>contato@treinadorhp.com.br</span>
-                            </li>
+                            </li> */}
                             <li className="flex items-center space-x-3">
                                 <MapPin className="h-4 w-4 text-orange-500" />
                                 <span>Atendimento Online e Presencial</span>

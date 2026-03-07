@@ -69,7 +69,7 @@ export default function About() {
                         transition={{ duration: 0.5, delay: 0.1 }}
                         className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl"
                     >
-                        Paixão pela Saúde e Transformação Física
+                        Quem é Pedro Henrique?
                     </motion.p>
                 </div>
 
@@ -87,39 +87,35 @@ export default function About() {
                                     <div className="h-2 w-2 rounded-full bg-orange-500" />
                                 </div>
                                 <h3 className="text-xl font-bold text-white">
-                                    Dupla Formação
+                                    Fisioterapeuta, Educador Físico e
+                                    especialista em treinamento avançado
                                 </h3>
                                 <p className="mt-2 text-zinc-400">
-                                    Fisioterapia e Educação Física, com
-                                    especialização aprofundada em musculação e
-                                    coaching de bodybuilding.
+                                    Eu sou Pedro Henrique, Fisioterapeuta e
+                                    Educador Físico. Concluí minhas duas
+                                    graduações aos 24 anos e, hoje, aos 26, já
+                                    acumulo a experiência de centenas de
+                                    clientes transformados através de método,
+                                    estratégia e acompanhamento individualizado.
                                 </p>
-                            </div>
-                            <div className="relative mb-8">
-                                <div className="absolute -left-8 flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 border border-orange-500">
-                                    <div className="h-2 w-2 rounded-full bg-orange-500" />
-                                </div>
-                                <h3 className="text-xl font-bold text-white">
-                                    Motivação Pessoal
-                                </h3>
                                 <p className="mt-2 text-zinc-400">
-                                    Minha própria jornada de superação e
-                                    dedicação me impulsionou a ajudar centenas
-                                    de alunos a transformarem seus corpos e
-                                    vidas.
+                                    Ajudo pessoas comuns a conquistarem
+                                    resultados extraordinários, aplicando a
+                                    metodologia utilizada por atletas de
+                                    fisiculturismo, porém adaptada com
+                                    inteligência, segurança e sustentabilidade
+                                    para a realidade de cada aluno. Minha
+                                    abordagem une Treinamento Avançado, visão
+                                    preventiva e corretiva, biomecánica
+                                    aplicada, cinesiologia e análise estratégica
+                                    de dieta, exames laboratoriais e protocolos
+                                    hormonais.
                                 </p>
-                            </div>
-                            <div className="relative">
-                                <div className="absolute -left-8 flex h-6 w-6 items-center justify-center rounded-full bg-zinc-900 border border-orange-500">
-                                    <div className="h-2 w-2 rounded-full bg-orange-500" />
-                                </div>
-                                <h3 className="text-xl font-bold text-white">
-                                    Compromisso Inabalável
-                                </h3>
                                 <p className="mt-2 text-zinc-400">
-                                    Trabalho baseado em evidências científicas e
-                                    um cuidado individualizado, garantindo a
-                                    excelência em cada atendimento.
+                                    Meu trabalho não é apenas prescrever treino.
+                                    É construir um projeto fisico estruturado,
+                                    com planejamento, controle e direção clara
+                                    de resultado.
                                 </p>
                             </div>
                         </div>
