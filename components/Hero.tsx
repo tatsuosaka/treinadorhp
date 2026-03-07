@@ -100,7 +100,6 @@ export default function Hero() {
                                 className="object-cover"
                                 width={700}
                                 height={700}
-                                referrerPolicy="no-referrer"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
                         </div>
