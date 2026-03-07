@@ -73,6 +73,7 @@ export default function SocialProofPage() {
                         alt="Background"
                         fill
                         className="object-cover"
+                        referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-zinc-950/80 to-zinc-950" />
                 </div>
