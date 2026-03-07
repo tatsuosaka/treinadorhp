@@ -1,6 +1,7 @@
 "use client";
 
 import { Dumbbell, Instagram, Mail, MapPin, Phone } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -8,8 +9,8 @@ export default function Footer() {
             <div className="container px-4 md:px-6 mx-auto">
                 <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4 mb-12">
                     <div className="space-y-4">
-                        <a
-                            href="#"
+                        <Link
+                            href="/"
                             className="flex items-center space-x-2 text-white group"
                         >
                             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white transition-transform group-hover:scale-105">
@@ -18,7 +19,7 @@ export default function Footer() {
                             <span className="text-xl font-bold tracking-tight">
                                 Treinador HP
                             </span>
-                        </a>
+                        </Link>
                         <p className="text-sm leading-relaxed">
                             Consultoria especializada em Fisioterapia,
                             Musculação e Bodybuilding Coaching. Transformando
@@ -32,44 +33,44 @@ export default function Footer() {
                         </h4>
                         <ul className="space-y-2 text-sm">
                             <li>
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/"
                                     className="hover:text-orange-500 transition-colors"
                                 >
                                     Início
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
-                                    href="#about"
+                                <Link
+                                    href="/#about"
                                     className="hover:text-orange-500 transition-colors"
                                 >
                                     Sobre Mim
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
-                                    href="#methodology"
+                                <Link
+                                    href="/provas-sociais"
                                     className="hover:text-orange-500 transition-colors"
                                 >
-                                    Metodologia
-                                </a>
+                                    Resultados
+                                </Link>
                             </li>
                             <li>
-                                <a
-                                    href="#plans"
+                                <Link
+                                    href="/#plans"
                                     className="hover:text-orange-500 transition-colors"
                                 >
                                     Planos
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a
-                                    href="#contact"
+                                <Link
+                                    href="/#contact"
                                     className="hover:text-orange-500 transition-colors"
                                 >
                                     Contato
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

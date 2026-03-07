@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, Dumbbell } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -18,12 +19,12 @@ export default function Navbar() {
     }, []);
 
     const navLinks = [
-        { name: "Início", href: "#" },
-        { name: "Sobre", href: "#about" },
-        { name: "Metodologia", href: "#methodology" },
-        { name: "Resultados", href: "#testimonials" },
-        { name: "Planos", href: "#plans" },
-        { name: "Contato", href: "#contact" },
+        { name: "Início", href: "/" },
+        { name: "Sobre", href: "/#about" },
+        { name: "Metodologia", href: "/#methodology" },
+        { name: "Resultados", href: "/provas-sociais" },
+        { name: "Planos", href: "/#plans" },
+        { name: "Contato", href: "/#contact" },
     ];
 
     return (
@@ -35,8 +36,8 @@ export default function Navbar() {
             }`}
         >
             <div className="container px-4 md:px-6 mx-auto flex items-center justify-between">
-                <a
-                    href="#"
+                <Link
+                    href="/"
                     className="flex items-center space-x-2 text-white group"
                 >
                     <div className="flex h-10 w-10 p-1 items-center justify-center rounded-xl bg-orange-500 text-white transition-transform group-hover:scale-105">
@@ -50,25 +51,25 @@ export default function Navbar() {
                     {/* <span className="text-xl font-light  tracking-tight">
                         Treinador HP
                     </span> */}
-                </a>
+                </Link>
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex items-center space-x-8">
                     {navLinks.map((link) => (
-                        <a
+                        <Link
                             key={link.name}
                             href={link.href}
                             className="text-sm font-medium text-zinc-400 hover:text-orange-500 transition-colors"
                         >
                             {link.name}
-                        </a>
+                        </Link>
                     ))}
-                    <a
-                        href="#contact"
+                    <Link
+                        href="/#contact"
                         className="inline-flex h-10 items-center justify-center rounded-md bg-orange-500 px-6 text-sm font-medium text-white shadow transition-colors hover:bg-orange-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-orange-500"
                     >
                         Agendar
-                    </a>
+                    </Link>
                 </nav>
 
                 {/* Mobile Menu Toggle */}
@@ -95,22 +96,22 @@ export default function Navbar() {
                     >
                         <nav className="flex flex-col px-4 py-6 space-y-4">
                             {navLinks.map((link) => (
-                                <a
+                                <Link
                                     key={link.name}
                                     href={link.href}
                                     onClick={() => setIsMobileMenuOpen(false)}
                                     className="text-base font-medium text-zinc-400 hover:text-orange-500 transition-colors"
                                 >
                                     {link.name}
-                                </a>
+                                </Link>
                             ))}
-                            <a
-                                href="#contact"
+                            <Link
+                                href="/#contact"
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className="inline-flex h-12 items-center justify-center rounded-md bg-orange-500 px-6 text-base font-medium text-white shadow transition-colors hover:bg-orange-600"
                             >
                                 Agendar Sessão
-                            </a>
+                            </Link>
                         </nav>
                     </motion.div>
                 )}

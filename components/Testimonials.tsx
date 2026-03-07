@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 import { Quote } from "lucide-react";
+import Link from "next/link";
 
 export default function Testimonials() {
     const images = [
@@ -90,13 +91,19 @@ export default function Testimonials() {
                             imaginei serem possíveis. O acompanhamento foi
                             fundamental!&quot;
                         </p>
-                        <div className="flex items-center justify-center space-x-4">
+                        <div className="flex items-center justify-center space-x-4 mb-8">
                             <div className="h-1 w-12 bg-orange-500 rounded-full" />
                             <p className="font-bold text-white uppercase tracking-wider text-sm">
                                 Cliente Satisfeito
                             </p>
                             <div className="h-1 w-12 bg-orange-500 rounded-full" />
                         </div>
+                        <Link
+                            href="/provas-sociais"
+                            className="inline-flex h-12 items-center justify-center rounded-xl bg-orange-500 px-8 text-sm font-bold text-white shadow-lg transition-all hover:bg-orange-600 hover:scale-105 active:scale-95"
+                        >
+                            Ver Todos os Resultados
+                        </Link>
                     </div>
                 </motion.div>
             </div>
