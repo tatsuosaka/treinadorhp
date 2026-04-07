@@ -97,9 +97,9 @@ export default function Hero() {
                             <Image
                                 src="/images/pic1.webp"
                                 alt="Treinador"
-                                fill
                                 className="object-cover"
-                                referrerPolicy="no-referrer"
+                                width={700}
+                                height={700}
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
                         </div>

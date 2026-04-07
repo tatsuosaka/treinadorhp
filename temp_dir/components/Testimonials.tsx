@@ -80,14 +80,31 @@ export default function Testimonials() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.4 }}
-                    className="flex justify-center mt-12"
+                    className="relative max-w-4xl mx-auto"
                 >
-                    <Link
-                        href="/provas-sociais"
-                        className="inline-flex h-14 items-center justify-center rounded-xl bg-orange-500 px-10 text-base font-bold text-white shadow-lg transition-all hover:bg-orange-600 hover:scale-105 active:scale-95"
-                    >
-                        Ver Todos os Resultados
-                    </Link>
+                    <div className="absolute -top-6 -left-6 text-orange-500/20">
+                        <Quote className="h-24 w-24 rotate-180" />
+                    </div>
+                    <div className="relative z-10 rounded-3xl bg-zinc-950 border border-zinc-800 p-8 md:p-12 text-center shadow-2xl">
+                        <p className="text-xl md:text-2xl font-medium text-zinc-300 leading-relaxed italic mb-6">
+                            &quot;Em X meses, alcancei resultados que nunca
+                            imaginei serem possíveis. O acompanhamento foi
+                            fundamental!&quot;
+                        </p>
+                        <div className="flex items-center justify-center space-x-4 mb-8">
+                            <div className="h-1 w-12 bg-orange-500 rounded-full" />
+                            <p className="font-bold text-white uppercase tracking-wider text-sm">
+                                Cliente Satisfeito
+                            </p>
+                            <div className="h-1 w-12 bg-orange-500 rounded-full" />
+                        </div>
+                        <Link
+                            href="/provas-sociais"
+                            className="inline-flex h-12 items-center justify-center rounded-xl bg-orange-500 px-8 text-sm font-bold text-white shadow-lg transition-all hover:bg-orange-600 hover:scale-105 active:scale-95"
+                        >
+                            Ver Todos os Resultados
+                        </Link>
+                    </div>
                 </motion.div>
             </div>
         </section>

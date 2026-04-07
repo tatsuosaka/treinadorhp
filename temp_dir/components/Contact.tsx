@@ -85,8 +85,9 @@ export default function Contact() {
                         className="flex flex-col justify-center space-y-8 p-8 md:p-12 rounded-3xl bg-zinc-900 border border-zinc-800 shadow-2xl"
                     >
                         <div className="relative pl-6 before:absolute before:inset-y-0 before:left-0 before:w-1 before:bg-orange-500 before:rounded-full">
-                            <p className="text-xl md:text-2xl font-medium text-white leading-tight italic">
-                                &quot;Seu corpo é o único lugar que você vai morar para sempre. Cuide dele como seu maior patrimônio, afinal, quem não encontra tempo para a saúde, terá que encontrar tempo para a doença... uma vida, uma chance!&quot;
+                            <p className="text-2xl md:text-3xl font-medium text-white leading-tight italic">
+                                &quot;Seu corpo é seu templo — cuide dele com
+                                conhecimento, dedicação e paixão.&quot;
                             </p>
                         </div>
 

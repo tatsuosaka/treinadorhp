@@ -45,10 +45,10 @@ export default function Methodology() {
 
     const results = [
         {
-            value: "100%",
-            label: "Foco em Resultados",
+            value: "5-8kg",
+            label: "Ganho de Massa Muscular",
             description:
-                "Transformações visíveis e sustentáveis com acompanhamento contínuo.",
+                "Média em 6 meses com acompanhamento contínuo e personalizado.",
             icon: <TrendingUp className="h-6 w-6 text-orange-500" />,
         },
         {

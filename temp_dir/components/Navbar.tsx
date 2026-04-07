@@ -40,7 +40,7 @@ export default function Navbar() {
                     href="/"
                     className="flex items-center space-x-2 text-white group"
                 >
-                    <div className="flex h-12 w-12 items-center justify-center transition-transform group-hover:scale-105">
+                    <div className="flex h-10 w-10 p-1 items-center justify-center rounded-xl bg-orange-500 text-white transition-transform group-hover:scale-105">
                         <Image
                             src={"/images/logo-svg.svg"}
                             alt="Logo"

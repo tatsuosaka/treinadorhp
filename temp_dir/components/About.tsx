@@ -16,37 +16,37 @@ export default function About() {
             id: 1,
             title: "Fisioterapia",
             description:
-                "Graduado em Fisioterapia pela FHO Fundação Hermínio Ometto (2023)",
+                "Graduado em Fisioterapia pela Universidade Federal de São Paulo (UNIFESP)",
             icon: <HeartPulse className="h-6 w-6" />,
         },
         {
             id: 2,
             title: "Educação Física",
             description:
-                "Bacharelado em Educação Física pela UniCV - Centro Universitário Cidade Verde (2025)",
+                "Licenciado em Educação Física pela Universidade de São Paulo (USP)",
             icon: <GraduationCap className="h-6 w-6" />,
         },
         {
             id: 3,
-            title: "Massoterapia",
+            title: "Especialização",
             description:
-                "Curso de Massoterapia pelo Senac Mogi Guaçu",
+                "Musculação e Hipertrofia pelo Instituto Brasileiro de Pós-Graduação (IBPEX)",
             icon: <BookOpen className="h-6 w-6" />,
         },
         {
             id: 4,
-            title: "Nutrição e Farmacologia",
+            title: "Coaching",
             description:
-                "Cursos complementares em Nutrição Esportiva, Farmacologia Básica e Dieta",
+                "Certificação em Coaching de Bodybuilding pela Federação Paulista de Musculação e Fitness (FPMF)",
             icon: <Award className="h-6 w-6" />,
         },
     ];
 
     const courses = [
-        "Massoterapia (Senac)",
-        "Nutrição Esportiva (Udemy)",
-        "Farmacologia Básica (Udemy)",
-        "Curso de Dieta (Leandro Twin)",
+        "Prescrição de Exercícios Terapêuticos",
+        "Avaliação Postural Avançada",
+        "Treinamento Funcional para Atletas",
+        "Reabilitação de Lesões Esportivas",
     ];
 
     return (
@@ -92,7 +92,8 @@ export default function About() {
                                 </h3>
                                 <p className="mt-2 text-zinc-400">
                                     Eu sou Pedro Henrique, Fisioterapeuta e
-                                    Educador Físico. Hoje, aos 26 anos, já
+                                    Educador Físico. Concluí minhas duas
+                                    graduações aos 24 anos e, hoje, aos 26, já
                                     acumulo a experiência de centenas de
                                     clientes transformados através de método,
                                     estratégia e acompanhamento individualizado.

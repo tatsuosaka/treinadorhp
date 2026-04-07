@@ -13,7 +13,7 @@ export default function Footer() {
                             href="#"
                             className="flex items-center space-x-2 text-white group"
                         >
-                            <div className="flex h-12 w-12 items-center justify-center transition-transform group-hover:scale-105">
+                            <div className="flex p-1 h-10 w-10 items-center justify-center rounded-xl bg-orange-500 text-white transition-transform group-hover:scale-105">
                                 <Image
                                     src={"/images/logo-svg.svg"}
                                     alt="Logo"
@@ -90,7 +90,7 @@ export default function Footer() {
                             </li>
                             {/* <li className="flex items-center space-x-3">
                                 <Mail className="h-4 w-4 text-orange-500" />
-                                <span>peeh_lopes@hotmail.com</span>
+                                <span>contato@treinadorhp.com.br</span>
                             </li> */}
                             <li className="flex items-center space-x-3">
                                 <MapPin className="h-4 w-4 text-orange-500" />
