@@ -15,6 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Treinador HP | Consultoria Esportiva',
   description: 'Fisioterapia, Musculação e Bodybuilding Coaching. Transforme seu corpo com ciência e personalização.',
+  icons: {
+    icon: '/images/logo-svg.svg',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
