@@ -28,15 +28,15 @@ export default function About() {
         },
         {
             id: 3,
-            title: "Massoterapia",
-            description: "Curso de Massoterapia pelo Senac Mogi Guaçu",
+            title: "Fisiologia do Exercício",
+            description: "Cursos complementar pela Anhanguera",
             icon: <BookOpen className="h-6 w-6" />,
         },
         {
             id: 4,
             title: "Nutrição e Farmacologia",
             description:
-                "Cursos complementares em Nutrição Esportiva, Farmacologia Básica e Dieta",
+                "Cursos complementares em Nutrição Esportiva e Farmacologia",
             icon: <Award className="h-6 w-6" />,
         },
     ];
@@ -45,6 +45,10 @@ export default function About() {
         "Nutrição Esportiva (Udemy)",
         "Farmacologia Básica (Udemy)",
         "Curso de Dieta (Leandro Twin)",
+        "Curso de treino (Leandro Twin) ",
+        "Mecânica da musculação (Waldemar Guimarães)",
+        "Powerbuilding (Caio Bottura)",
+        "Massoterapia (Senac Mogi Guaçu)",
     ];
 
     return (
