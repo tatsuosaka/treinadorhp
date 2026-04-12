@@ -104,7 +104,7 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="inline-flex h-14 items-center justify-center rounded-xl bg-orange-500 px-8 text-base font-bold text-white shadow-lg transition-all hover:bg-orange-600 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
                             >
-                                Agende Sua Sessão Agora!
+                                Agende Sua Reunião Agora!
                             </a>
                         </div>
                     </motion.div>

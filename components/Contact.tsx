@@ -86,7 +86,11 @@ export default function Contact() {
                     >
                         <div className="relative pl-6 before:absolute before:inset-y-0 before:left-0 before:w-1 before:bg-orange-500 before:rounded-full">
                             <p className="text-xl md:text-2xl font-medium text-white leading-tight italic">
-                                &quot;Seu corpo é o único lugar que você vai morar para sempre. Cuide dele como seu maior patrimônio, afinal, quem não encontra tempo para a saúde, terá que encontrar tempo para a doença... uma vida, uma chance!&quot;
+                                &quot;Seu corpo é o único lugar que você vai
+                                morar para sempre. Cuide dele como seu maior
+                                patrimônio, afinal, quem não encontra tempo para
+                                a saúde, terá que encontrar tempo para a
+                                doença... uma vida, uma chance!&quot;
                             </p>
                         </div>
 
@@ -103,7 +107,7 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="inline-flex h-14 items-center justify-center rounded-xl bg-orange-500 px-8 text-base font-bold text-white shadow-lg transition-all hover:bg-orange-600 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"
                             >
-                                Agende Sua Sessão Agora!
+                                Agende Sua Reunião Agora!
                             </a>
                         </div>
                     </motion.div>

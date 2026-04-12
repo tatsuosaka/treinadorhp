@@ -23,14 +23,13 @@ export default function About() {
             id: 2,
             title: "Educação Física",
             description:
-                "Bacharelado em Educação Física pela UniCV - Centro Universitário Cidade Verde (2025)",
+                "Bacharelado em Educação Física pela UniCV - Centro Universitário Cidade Verde (2024)",
             icon: <GraduationCap className="h-6 w-6" />,
         },
         {
             id: 3,
             title: "Massoterapia",
-            description:
-                "Curso de Massoterapia pelo Senac Mogi Guaçu",
+            description: "Curso de Massoterapia pelo Senac Mogi Guaçu",
             icon: <BookOpen className="h-6 w-6" />,
         },
         {

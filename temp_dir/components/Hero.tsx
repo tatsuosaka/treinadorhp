@@ -53,7 +53,7 @@ export default function Hero() {
                                 href="#contact"
                                 className="inline-flex h-12 items-center justify-center rounded-md bg-orange-500 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-orange-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-orange-500 disabled:pointer-events-none disabled:opacity-50"
                             >
-                                Agende Sua Sessão
+                                Agende Sua Reunião
                                 <ArrowRight className="ml-2 h-4 w-4" />
                             </a>
                             <a

@@ -9,7 +9,7 @@ import {
     CheckCircle2,
     Layers,
     Activity,
-    Dumbbell
+    Dumbbell,
 } from "lucide-react";
 
 export default function Plans() {
@@ -17,7 +17,8 @@ export default function Plans() {
         {
             title: "PLANO 1 – ESSENCIAL",
             price: "200",
-            whatsappMessage: "Olá, Pedro! Tenho interesse no Plano Essencial (R$ 200). Gostaria de dar o primeiro passo na minha transformação!",
+            whatsappMessage:
+                "Olá, Pedro! Tenho interesse no Plano Essencial (R$ 200). Gostaria de dar o primeiro passo na minha transformação!",
             focus: "Estruturação completa de treino com acompanhamento estratégico",
             includes: [
                 "Avaliação inicial detalhada (anamnese + objetivos)",
@@ -28,16 +29,18 @@ export default function Plans() {
                 "1 reunião mensal para alinhamento",
                 "Suporte via WhatsApp (horário comercial)",
                 "Orientações gerais sobre rotina e hábitos",
-                "Adaptações a exames e patologias"
+                "Adaptações a exames e patologias",
             ],
-            idealFor: "Quem quer resultado com treino bem estruturado, mas sem acompanhamento nutricional e farmacológico.",
+            idealFor:
+                "Quem quer resultado com treino bem estruturado, mas sem acompanhamento nutricional e farmacológico.",
             icon: <Layers className="h-8 w-8" />,
-            popular: false
+            popular: false,
         },
         {
             title: "PLANO 2 – PERFORMANCE",
             price: "300",
-            whatsappMessage: "Olá, Pedro! Quero acelerar meus resultados com o Plano Performance (R$ 300). Como podemos começar?",
+            whatsappMessage:
+                "Olá, Pedro! Quero acelerar meus resultados com o Plano Performance (R$ 300). Como podemos começar?",
             focus: "Otimização de resultados com controle total (treino + dieta + recursos ergogênicos)",
             includes: [
                 "Inclui tudo do plano Essencial +",
@@ -47,16 +50,18 @@ export default function Plans() {
                 "Direcionamento sobre uso de fármacos e suplementos",
                 "Solicitação e análise de exames laboratoriais",
                 "Controle de evolução física (feedback contínuo)",
-                "1 a 2 reuniões mensais"
+                "1 a 2 reuniões mensais",
             ],
-            idealFor: "Quem quer acelerar resultados com acompanhamento mais completo e abordagem técnica integrada.",
+            idealFor:
+                "Quem quer acelerar resultados com acompanhamento mais completo e abordagem técnica integrada.",
             icon: <Activity className="h-8 w-8" />,
-            popular: true
+            popular: true,
         },
         {
             title: "PLANO 3 – ELITE",
             price: "400",
-            whatsappMessage: "Olá, Pedro! Estou buscando o máximo de resultado e acompanhamento de alto nível com o Plano Elite (R$ 400). Podemos conversar?",
+            whatsappMessage:
+                "Olá, Pedro! Estou buscando o máximo de resultado e acompanhamento de alto nível com o Plano Elite (R$ 400). Podemos conversar?",
             focus: "Alta performance, estética avançada e acompanhamento próximo",
             includes: [
                 "Inclui tudo do plano Performance +",
@@ -67,13 +72,15 @@ export default function Plans() {
                 "Monitoramento constante de evolução (fotos, medidas, performance)",
                 "Planejamento completo de rotina (sono, cardio, hábitos)",
                 "Preparação específica (ensaios, eventos, desafios, etc.)",
-                "Atenção personalizada e acompanhamento intensivo"
+                "Atenção personalizada e acompanhamento intensivo",
             ],
-            differential: "Aqui o aluno tem praticamente um coach ao lado todos os dias.",
-            idealFor: "Quem quer o máximo resultado possível com acompanhamento de alto nível e proximidade total.",
+            differential:
+                "Aqui o aluno tem praticamente um coach ao lado todos os dias.",
+            idealFor:
+                "Quem quer o máximo resultado possível com acompanhamento de alto nível e proximidade total.",
             icon: <Dumbbell className="h-8 w-8" />,
-            popular: false
-        }
+            popular: false,
+        },
     ];
 
     const differentials = [
@@ -138,7 +145,7 @@ export default function Plans() {
                                 duration: 0.5,
                                 delay: index * 0.1,
                             }}
-                            className={`relative flex flex-col rounded-3xl border ${plan.popular ? 'border-orange-500 bg-zinc-900/80 shadow-2xl shadow-orange-500/10' : 'border-zinc-800 bg-zinc-900/50 hover:border-orange-500/50'} p-8 transition-colors`}
+                            className={`relative flex flex-col rounded-3xl border ${plan.popular ? "border-orange-500 bg-zinc-900/80 shadow-2xl shadow-orange-500/10" : "border-zinc-800 bg-zinc-900/50 hover:border-orange-500/50"} p-8 transition-colors`}
                         >
                             {plan.popular && (
                                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-orange-500 px-4 py-1 text-xs font-bold uppercase tracking-wider text-white">
@@ -154,24 +161,47 @@ export default function Plans() {
                                         {plan.title}
                                     </h3>
                                     <div className="mt-1 flex items-baseline text-white">
-                                        <span className="text-2xl font-extrabold tracking-tight">R$ {plan.price}</span>
-                                        <span className="ml-1 text-sm font-medium text-zinc-400">/mês</span>
+                                        <span className="text-2xl font-extrabold tracking-tight">
+                                            R$ {plan.price}
+                                        </span>
+                                        <span className="ml-1 text-sm font-medium text-zinc-400">
+                                            /mês
+                                        </span>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="mb-6">
-                                <p className="text-sm font-medium text-orange-400 mb-2">Foco:</p>
-                                <p className="text-sm text-zinc-300 leading-relaxed">{plan.focus}</p>
+                                <p className="text-sm font-medium text-orange-400 mb-2">
+                                    Foco:
+                                </p>
+                                <p className="text-sm text-zinc-300 leading-relaxed">
+                                    {plan.focus}
+                                </p>
                             </div>
 
                             <div className="flex-grow space-y-4 mb-8">
-                                <p className="text-sm font-medium text-white">Inclui:</p>
+                                <p className="text-sm font-medium text-white">
+                                    Inclui:
+                                </p>
                                 <ul className="space-y-3">
                                     {plan.includes.map((item, i) => (
-                                        <li key={i} className="flex items-start space-x-3 text-sm text-zinc-400">
+                                        <li
+                                            key={i}
+                                            className="flex items-start space-x-3 text-sm text-zinc-400"
+                                        >
                                             <CheckCircle2 className="h-5 w-5 text-orange-500 shrink-0" />
-                                            <span className={item.includes("Inclui tudo do plano") ? "font-medium text-white" : ""}>{item}</span>
+                                            <span
+                                                className={
+                                                    item.includes(
+                                                        "Inclui tudo do plano",
+                                                    )
+                                                        ? "font-medium text-white"
+                                                        : ""
+                                                }
+                                            >
+                                                {item}
+                                            </span>
                                         </li>
                                     ))}
                                 </ul>
@@ -179,21 +209,29 @@ export default function Plans() {
 
                             {plan.differential && (
                                 <div className="mb-6 rounded-xl bg-orange-500/10 p-4 border border-orange-500/20">
-                                    <p className="text-xs font-bold text-orange-500 uppercase tracking-wider mb-1">Diferencial</p>
-                                    <p className="text-sm text-zinc-300">{plan.differential}</p>
+                                    <p className="text-xs font-bold text-orange-500 uppercase tracking-wider mb-1">
+                                        Diferencial
+                                    </p>
+                                    <p className="text-sm text-zinc-300">
+                                        {plan.differential}
+                                    </p>
                                 </div>
                             )}
 
                             <div className="mt-auto pt-6 border-t border-zinc-800">
-                                <p className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">Ideal para</p>
-                                <p className="text-sm text-zinc-300 italic">{plan.idealFor}</p>
+                                <p className="text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">
+                                    Ideal para
+                                </p>
+                                <p className="text-sm text-zinc-300 italic">
+                                    {plan.idealFor}
+                                </p>
                             </div>
-                            
+
                             <a
                                 href={`https://wa.me/5519994979554?text=${encodeURIComponent(plan.whatsappMessage)}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`mt-8 inline-flex h-12 w-full items-center justify-center rounded-xl px-6 text-sm font-bold transition-colors ${plan.popular ? 'bg-orange-500 text-white hover:bg-orange-600' : 'bg-zinc-800 text-white hover:bg-zinc-700'}`}
+                                className={`mt-8 inline-flex h-12 w-full items-center justify-center rounded-xl px-6 text-sm font-bold transition-colors ${plan.popular ? "bg-orange-500 text-white hover:bg-orange-600" : "bg-zinc-800 text-white hover:bg-zinc-700"}`}
                             >
                                 Escolher Plano
                             </a>
