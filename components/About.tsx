@@ -43,7 +43,6 @@ export default function About() {
     ];
 
     const courses = [
-        "Massoterapia (Senac)",
         "Nutrição Esportiva (Udemy)",
         "Farmacologia Básica (Udemy)",
         "Curso de Dieta (Leandro Twin)",
@@ -125,16 +124,18 @@ export default function About() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="relative mx-auto w-full max-w-[400px] aspect-[3/4] rounded-2xl overflow-hidden border border-zinc-800/50"
+                        className="relative mx-auto w-full max-w-[500px] aspect-video rounded-2xl overflow-hidden border border-zinc-800/50 shadow-2xl bg-zinc-900"
                     >
-                        <Image
-                            src="/images/case4.webp"
-                            alt="Treinador"
-                            fill
-                            className="object-cover"
-                            referrerPolicy="no-referrer"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent" />
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                            title="Quem é Pedro Henrique"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            className="absolute inset-0"
+                        ></iframe>
                     </motion.div>
                 </div>
 
@@ -190,7 +191,7 @@ export default function About() {
                         <h3 className="mb-6 text-xl font-bold text-center text-white">
                             Cursos Complementares
                         </h3>
-                        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                        <div className="flex flex-wrap justify-center gap-x-12 gap-y-4">
                             {courses.map((course, index) => (
                                 <div
                                     key={index}
