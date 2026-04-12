@@ -8,11 +8,13 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-zinc-950 pt-20">
             {/* Background Image with Overlay */}
-            <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 z-0 w-full h-full">
                 <Image
                     src="/images/bg.webp"
                     alt="Gym Background"
                     fill
+                    priority
+                    sizes="100vw"
                     className="object-cover opacity-20"
                     referrerPolicy="no-referrer"
                 />
@@ -98,6 +100,7 @@ export default function Hero() {
                                 src="/images/pic1.webp"
                                 alt="Treinador"
                                 fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
                                 className="object-cover"
                                 referrerPolicy="no-referrer"
                             />
