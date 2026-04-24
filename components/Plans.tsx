@@ -228,7 +228,7 @@ export default function Plans() {
                             </div>
 
                             <a
-                                href={`https://wa.me/5519994979554?text=${encodeURIComponent(plan.whatsappMessage)}`}
+                                href={`https://wa.me/5519986017806?text=${encodeURIComponent(plan.whatsappMessage)}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`mt-8 inline-flex h-12 w-full items-center justify-center rounded-xl px-6 text-sm font-bold transition-colors ${plan.popular ? "bg-orange-500 text-white hover:bg-orange-600" : "bg-zinc-800 text-white hover:bg-zinc-700"}`}

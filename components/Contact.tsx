@@ -48,7 +48,7 @@ export default function Contact() {
                                 <div className="flex items-center space-x-2 text-zinc-300">
                                     <Phone className="h-4 w-4 text-orange-500" />
                                     <span className="font-medium">
-                                        (19) 99497-9554
+                                        (19) 98601-7806
                                     </span>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ export default function Contact() {
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4">
                             <a
-                                href="https://wa.me/5519994979554"
+                                href="https://wa.me/5519986017806"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex h-14 items-center justify-center rounded-xl bg-orange-500 px-8 text-base font-bold text-white shadow-lg transition-all hover:bg-orange-600 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950"

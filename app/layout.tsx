@@ -116,7 +116,7 @@ export default function RootLayout({
                             description:
                                 "Consultoria de Fisioterapia, Musculação e Bodybuilding",
                             url: "https://treinadorhp.com",
-                            telephone: "+55 19 99497-9554",
+                            telephone: "+55 19 98601-7806",
                             email: "personalpedroh@hotmail.com",
                             address: {
                                 "@type": "PostalAddress",
