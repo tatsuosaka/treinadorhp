@@ -9,4 +9,4 @@ Disallow: /*?*sort=
 Disallow: /temp_dir/
 
 # Sitemap
-Sitemap: https://treinadorhp.com/sitemap.xml
+Sitemap: https://www.treinadorhp.com.br/sitemap.xml

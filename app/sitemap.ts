@@ -3,13 +3,13 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
-            url: "https://treinadorhp.com",
+            url: "https://www.treinadorhp.com.br/",
             lastModified: new Date(),
             changeFrequency: "weekly",
             priority: 1,
         },
         {
-            url: "https://treinadorhp.com/provas-sociais",
+            url: "https://www.treinadorhp.com.br/provas-sociais",
             lastModified: new Date(),
             changeFrequency: "monthly",
             priority: 0.8,
