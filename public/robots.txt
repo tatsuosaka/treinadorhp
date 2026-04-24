@@ -1,0 +1,12 @@
+# Robots.txt for Treinador HP
+User-agent: *
+Allow: /
+Allow: /provas-sociais/
+
+# Desabilitar crawling desnecessário
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /temp_dir/
+
+# Sitemap
+Sitemap: https://treinadorhp.com/sitemap.xml

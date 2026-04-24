@@ -6,12 +6,16 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-zinc-950 pt-20">
+        <section
+            className="relative min-h-screen flex items-center justify-center overflow-hidden bg-zinc-950 pt-20"
+            aria-label="Seção Hero - Apresentação dos serviços"
+            id="hero"
+        >
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0 w-full h-full">
                 <Image
                     src="/images/bg.webp"
-                    alt="Gym Background"
+                    alt="Fundo com equipamento de musculação em ambiente de ginásio"
                     fill
                     priority
                     sizes="100vw"
@@ -35,8 +39,12 @@ export default function Hero() {
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: 0.2, duration: 0.8 }}
                                 className="inline-flex items-center rounded-full border border-orange-500/30 bg-orange-500/10 px-3 py-1 text-sm font-medium text-orange-500"
+                                aria-label="Badge"
                             >
-                                <Activity className="mr-2 h-4 w-4" />
+                                <Activity
+                                    className="mr-2 h-4 w-4"
+                                    aria-hidden="true"
+                                />
                                 Apresentação Profissional
                             </motion.div>
                             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-white">
@@ -54,33 +62,59 @@ export default function Hero() {
                             <a
                                 href="#contact"
                                 className="inline-flex h-12 items-center justify-center rounded-md bg-orange-500 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-orange-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-orange-500 disabled:pointer-events-none disabled:opacity-50"
+                                aria-label="Agendar uma reunião com o treinador"
                             >
                                 Agende Sua Reunião
-                                <ArrowRight className="ml-2 h-4 w-4" />
+                                <ArrowRight
+                                    className="ml-2 h-4 w-4"
+                                    aria-hidden="true"
+                                />
                             </a>
                             <a
                                 href="#about"
                                 className="inline-flex h-12 items-center justify-center rounded-md border border-zinc-800 bg-zinc-950/50 px-8 text-sm font-medium text-white shadow-sm transition-colors hover:bg-zinc-800 hover:text-zinc-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-800 disabled:pointer-events-none disabled:opacity-50"
+                                aria-label="Saiba mais sobre os serviços"
                             >
                                 Saiba Mais
                             </a>
                         </div>
 
-                        <div className="grid grid-cols-3 gap-4 pt-8 border-t border-zinc-800/50">
-                            <div className="flex flex-col items-center text-center space-y-2">
-                                <Dumbbell className="h-6 w-6 text-orange-500" />
+                        <div
+                            className="grid grid-cols-3 gap-4 pt-8 border-t border-zinc-800/50"
+                            role="list"
+                        >
+                            <div
+                                className="flex flex-col items-center text-center space-y-2"
+                                role="listitem"
+                            >
+                                <Dumbbell
+                                    className="h-6 w-6 text-orange-500"
+                                    aria-hidden="true"
+                                />
                                 <span className="text-sm font-medium text-zinc-300">
                                     Treino Personalizado
                                 </span>
                             </div>
-                            <div className="flex flex-col items-center text-center space-y-2">
-                                <Activity className="h-6 w-6 text-orange-500" />
+                            <div
+                                className="flex flex-col items-center text-center space-y-2"
+                                role="listitem"
+                            >
+                                <Activity
+                                    className="h-6 w-6 text-orange-500"
+                                    aria-hidden="true"
+                                />
                                 <span className="text-sm font-medium text-zinc-300">
                                     Fisioterapia
                                 </span>
                             </div>
-                            <div className="flex flex-col items-center text-center space-y-2">
-                                <ShieldCheck className="h-6 w-6 text-orange-500" />
+                            <div
+                                className="flex flex-col items-center text-center space-y-2"
+                                role="listitem"
+                            >
+                                <ShieldCheck
+                                    className="h-6 w-6 text-orange-500"
+                                    aria-hidden="true"
+                                />
                                 <span className="text-sm font-medium text-zinc-300">
                                     Resultados Seguros
                                 </span>
@@ -94,17 +128,23 @@ export default function Hero() {
                         transition={{ delay: 0.4, duration: 0.8 }}
                         className="relative mx-auto w-full max-w-[500px] aspect-[4/5] lg:aspect-square"
                     >
-                        <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-orange-500/20 to-transparent blur-2xl" />
+                        <div
+                            className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-orange-500/20 to-transparent blur-2xl"
+                            aria-hidden="true"
+                        />
                         <div className="relative h-full w-full overflow-hidden rounded-2xl border border-zinc-800/50 bg-zinc-900/50 backdrop-blur-sm">
                             <Image
                                 src="/images/pic1.webp"
-                                alt="Treinador"
+                                alt="Foto do treinador profissional especializado em fisioterapia, musculação e bodybuilding"
                                 fill
                                 sizes="(max-width: 768px) 100vw, 50vw"
                                 className="object-cover"
                                 referrerPolicy="no-referrer"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent" />
+                            <div
+                                className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent"
+                                aria-hidden="true"
+                            />
                         </div>
                     </motion.div>
                 </div>

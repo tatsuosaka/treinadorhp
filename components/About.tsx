@@ -29,7 +29,7 @@ export default function About() {
         {
             id: 3,
             title: "Fisiologia do Exercício",
-            description: "Cursos complementar pela Anhanguera",
+            description: "Curso de especialização complementar pela Anhanguera",
             icon: <BookOpen className="h-6 w-6" />,
         },
         {
@@ -94,10 +94,10 @@ export default function About() {
                                 </h3>
                                 <p className="mt-2 text-zinc-400">
                                     Eu sou Pedro Henrique, Fisioterapeuta e
-                                    Educador Físico. Hoje, aos 26 anos, já
-                                    acumulo a experiência de centenas de
-                                    clientes transformados através de método,
-                                    estratégia e acompanhamento individualizado.
+                                    Educador Físico. Hoje já acumulo a
+                                    experiência de centenas de clientes
+                                    transformados através de método, estratégia
+                                    e acompanhamento individualizado.
                                 </p>
                                 <p className="mt-2 text-zinc-400">
                                     Ajudo pessoas comuns a conquistarem
@@ -194,7 +194,7 @@ export default function About() {
                         <h3 className="mb-6 text-xl font-bold text-center text-white">
                             Cursos Complementares
                         </h3>
-                        <div className="flex flex-wrap justify-center gap-x-12 gap-y-4">
+                        <div className="flex flex-wrap justify-start md:justify-center gap-x-12 gap-y-4">
                             {courses.map((course, index) => (
                                 <div
                                     key={index}
