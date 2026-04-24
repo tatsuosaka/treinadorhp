@@ -24,6 +24,23 @@ const nextConfig: NextConfig = {
     },
     output: "standalone",
     transpilePackages: ["motion"],
+    async headers() {
+        return [
+            {
+                source: "/videos/:path*",
+                headers: [
+                    {
+                        key: "Cache-Control",
+                        value: "public, max-age=31536000, immutable",
+                    },
+                    {
+                        key: "Content-Type",
+                        value: "video/mp4",
+                    },
+                ],
+            },
+        ];
+    },
     webpack: (config, { dev }) => {
         // HMR is disabled in AI Studio via DISABLE_HMR env var.
         // Do not modifyâfile watching is disabled to prevent flickering during agent edits.

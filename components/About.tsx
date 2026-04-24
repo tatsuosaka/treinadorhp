@@ -129,16 +129,20 @@ export default function About() {
                         transition={{ duration: 0.5 }}
                         className="relative mx-auto w-full max-w-[500px] aspect-video rounded-2xl overflow-hidden border border-zinc-800/50 shadow-2xl bg-zinc-900"
                     >
-                        <iframe
+                        <video
                             width="100%"
                             height="100%"
-                            src="https://youtu.be/U62vHvd4nAg"
-                            title="Quem é Pedro Henrique"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            className="absolute inset-0"
-                        ></iframe>
+                            controls
+                            preload="metadata"
+                            className="absolute inset-0 w-full h-full object-cover"
+                            title="Pedro Henrique - Apresentação"
+                        >
+                            <source
+                                src="/videos/Pedro Henrique - Apresentação.mp4"
+                                type="video/mp4"
+                            />
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
                     </motion.div>
                 </div>
 
