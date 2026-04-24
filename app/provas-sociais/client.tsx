@@ -29,6 +29,46 @@ export default function SocialProofPageClient() {
             image: "/images/case4.webp",
             alt: "Transformação corporal case de sucesso 4 - antes e depois",
         },
+        {
+            id: 5,
+            image: "/images/case5.webp",
+            alt: "Transformação corporal case de sucesso 5 - antes e depois",
+        },
+        {
+            id: 6,
+            image: "/images/case6.webp",
+            alt: "Transformação corporal case de sucesso 6 - antes e depois",
+        },
+        {
+            id: 7,
+            image: "/images/case7.webp",
+            alt: "Transformação corporal case de sucesso 7 - antes e depois",
+        },
+        {
+            id: 8,
+            image: "/images/case8.webp",
+            alt: "Transformação corporal case de sucesso 8 - antes e depois",
+        },
+        {
+            id: 9,
+            image: "/images/case9.webp",
+            alt: "Transformação corporal case de sucesso 9 - antes e depois",
+        },
+        {
+            id: 10,
+            image: "/images/case10.webp",
+            alt: "Transformação corporal case de sucesso 10 - antes e depois",
+        },
+        {
+            id: 11,
+            image: "/images/case11.webp",
+            alt: "Transformação corporal case de sucesso 11 - antes e depois",
+        },
+        {
+            id: 12,
+            image: "/images/case12.webp",
+            alt: "Transformação corporal case de sucesso 12 - antes e depois",
+        },
     ];
 
     return (
@@ -103,7 +143,7 @@ export default function SocialProofPageClient() {
                                     delay: index * 0.1,
                                     duration: 0.5,
                                 }}
-                                className="group relative aspect-[3/4] rounded-3xl overflow-hidden border border-zinc-800 hover:border-orange-500/50 transition-all duration-500"
+                                className="group relative aspect-[1/1] rounded-3xl overflow-hidden border border-zinc-800 hover:border-orange-500/50 transition-all duration-500"
                             >
                                 <Image
                                     src={item.image}
