@@ -18,7 +18,7 @@ export default function Plans() {
             title: "PLANO 1 – ESSENCIAL",
             price: "150",
             whatsappMessage:
-                "Olá, Pedro! Tenho interesse no Plano Essencial (R$ 200). Gostaria de dar o primeiro passo na minha transformação!",
+                "Olá, Pedro! Tenho interesse no Plano Essencial (R$ 150). Gostaria de dar o primeiro passo na minha transformação!",
             focus: "Estruturação completa de treino com acompanhamento estratégico",
             includes: [
                 "Avaliação inicial detalhada (anamnese + objetivos)",
@@ -40,7 +40,7 @@ export default function Plans() {
             title: "PLANO 2 – PERFORMANCE",
             price: "250",
             whatsappMessage:
-                "Olá, Pedro! Quero acelerar meus resultados com o Plano Performance (R$ 300). Como podemos começar?",
+                "Olá, Pedro! Quero acelerar meus resultados com o Plano Performance (R$ 250). Como podemos começar?",
             focus: "Otimização de resultados com controle total (treino + dieta + recursos ergogênicos)",
             includes: [
                 "Inclui tudo do plano Essencial +",
